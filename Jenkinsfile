@@ -9,7 +9,7 @@ pipeline {
  stage("Unit and Integration Tests") {
  steps {
  echo "Running unit tests with JUnit"
- echo "Running integration tests with Postman"
+ echo "Running integration test with Postman"
  }
  post {
  success {
